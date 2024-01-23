@@ -1,24 +1,24 @@
 class DetectFlake < Formula
   desc "Run many instances of the same command in parallel to find abnormal behavior or check if a test is flaky"
-  version "0.5.7"
+  version "0.6.0"
   on_macos do
     on_arm do
-      url "https://github.com/aqrln/detect_flake/releases/download/v0.5.7/detect_flake-aarch64-apple-darwin.tar.gz"
-      sha256 "211657f3007a97a8dd23c71f49b0fffb2925cb1406ee7e4cc82fc934d47fc92b"
+      url "https://github.com/aqrln/detect_flake/releases/download/v0.6.0/detect_flake-aarch64-apple-darwin.tar.gz"
+      sha256 "fa256c421802c29a2b369ebd2463ba456884a4632bc569c8a997467b23d75ef9"
     end
     on_intel do
-      url "https://github.com/aqrln/detect_flake/releases/download/v0.5.7/detect_flake-x86_64-apple-darwin.tar.gz"
-      sha256 "c1da0b64b9a4fe8463db4b89967999e8cc55142b473db4d3eb7e6ae96799e8a1"
+      url "https://github.com/aqrln/detect_flake/releases/download/v0.6.0/detect_flake-x86_64-apple-darwin.tar.gz"
+      sha256 "e5f08756926701e04b992d5078aa44558bec8083ad1a30b24bedd59ad23b5142"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/aqrln/detect_flake/releases/download/v0.5.7/detect_flake-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "41440b2492be321f709a7f316c5abb7d39368e4a2c650ad50b7ab36dec8db30f"
+      url "https://github.com/aqrln/detect_flake/releases/download/v0.6.0/detect_flake-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "89cc952bb3993a370a3c9f1df6996356382589a9eba658afbc430e85116fc9d3"
     end
     on_intel do
-      url "https://github.com/aqrln/detect_flake/releases/download/v0.5.7/detect_flake-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "55594c48bfeef1c651b2e4da1148d7e49b0b8986645095e8411d5ac0c4634f12"
+      url "https://github.com/aqrln/detect_flake/releases/download/v0.6.0/detect_flake-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d25263d62019eff399a8d4b65ed7cf2df764c466c5a7527c6de9c7e42ab20ff7"
     end
   end
   license "MIT OR Apache-2.0"
